@@ -30,11 +30,6 @@ function clearData(){
 
 
 document.addEventListener('DOMContentLoaded', function() {
-
-  localStorage.setItem('bgcolor', 'red');
-  document.cookie = "username=John Doe";
-
-
   const link = document.getElementById('clearDataButton');
   link.addEventListener('click', function() {
     clearData();
